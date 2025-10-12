@@ -1,0 +1,7 @@
+#shallow copy in list of dicts
+import copy
+a = [{'a':1}, {'b':2}]
+b = copy.copy(a)
+b[0]['a'] = 100
+b[1]['b'] = 45
+print(a)
