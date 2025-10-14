@@ -1,0 +1,9 @@
+# Writing to a file
+file = open("example.txt", "w")
+file.write("Hello, world!")
+file.close()
+
+# Reading from a file
+file = open("example.txt", "r")
+print(file.read())
+file.close()

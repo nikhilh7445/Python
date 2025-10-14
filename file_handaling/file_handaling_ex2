@@ -1,0 +1,12 @@
+# Create and write to a file
+# create(or overwrite) a file and write text into it
+
+file = open("Example1.txt","w")
+file.write("hellow, this is the first example.")
+file.close()
+
+# Read from a file
+file = open("Example1.txt", "r")
+content = file.read()
+print(content)
+file.close()

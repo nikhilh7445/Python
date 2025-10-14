@@ -1,0 +1,10 @@
+# Append data to a file
+file = open("Enxample1.txt", "a")
+file.write("\n This line is appended to a file.")
+file.close()
+
+#Read line by line
+file = open("Example1.txt", "r")
+for line in file:
+    print(line.strip())
+file.close()
