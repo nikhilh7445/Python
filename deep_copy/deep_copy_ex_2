@@ -1,0 +1,7 @@
+# Deep copy on nested dictionary
+import copy
+a = {'x': {'y':1}}
+b = copy.deepcopy(a)
+b['x']['y'] = 10
+print(a)
+print(b)

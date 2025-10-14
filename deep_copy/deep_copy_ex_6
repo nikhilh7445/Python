@@ -1,0 +1,8 @@
+# Deep copy with nested combination
+
+import copy
+a = {'a':[1,2],'b': {'x':[3,4]}}
+b = copy.deepcopy(a)
+b['b']['x'][0] = 999
+print(a)
+print(b)
