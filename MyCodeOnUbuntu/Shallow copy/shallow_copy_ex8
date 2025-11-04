@@ -1,0 +1,7 @@
+#Shallow copy on set
+import copy
+a = {1,2,3}
+b = copy.copy(a)
+b.add(4)
+print(a)
+print(b)

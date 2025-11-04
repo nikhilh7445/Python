@@ -1,0 +1,13 @@
+#shallow copy on class object 
+import copy
+
+class demo:
+
+    def __init__(self,val):
+
+        self.val = val
+
+obj1 = demo([1,2])
+obj2 = copy.copy(obj1)
+obj2.val[0] = 999
+print(obj1.val)

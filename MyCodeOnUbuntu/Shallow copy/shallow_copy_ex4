@@ -1,0 +1,7 @@
+#Shallow copy using list()
+import copy
+a = [[1,2],[3,4]]
+b = list(a)
+b[0][1] = 500
+print(a)
+print(b)

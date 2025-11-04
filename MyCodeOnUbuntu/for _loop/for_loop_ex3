@@ -1,0 +1,4 @@
+# Print each character in string
+
+for char in "python":
+    print(char)

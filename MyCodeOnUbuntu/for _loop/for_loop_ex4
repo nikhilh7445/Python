@@ -1,0 +1,4 @@
+# Print all elements in list 
+fruits = ["Apple", "Banana", "Mango", "Grapes"]
+for fruit in fruits:
+    print(fruit)

@@ -1,0 +1,7 @@
+# Deep copy on list of dict
+import copy
+
+a = [{'a':1}, {'b':2}]
+b = copy.deepcopy(a)
+b[0]['a'] = 999
+print(a)

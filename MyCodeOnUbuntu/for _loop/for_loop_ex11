@@ -1,0 +1,6 @@
+# Using for loop with else
+
+for i in range(3):
+    print("loop running:", i)
+else:
+    print("Loop completed successfully!")

@@ -1,0 +1,12 @@
+# Deep copy insided nested objects
+
+import copy
+class test:
+    def __init__(self,x):
+        self.x = x
+        
+a = test({'val':[1,2]})
+b = copy.deepcopy(a)
+b.x['val'][0] = 999
+print(a.x)
+print(b.x)

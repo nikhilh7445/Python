@@ -1,0 +1,4 @@
+# Example for for_loop
+
+for letter in "python":
+    print("Characters in", letter)
